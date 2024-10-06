@@ -1,0 +1,18 @@
+footer {
+    * {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        color: black;
+    }
+    section {
+        margin-top: 10vh;
+    }
+    text-align: center;
+    .fa-solid {
+        color: #1259c3;
+        font-size: 2em;
+    }
+}
+
+

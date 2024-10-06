@@ -1,0 +1,65 @@
+
+#nombreYApellido{
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 5vh auto;
+}
+#nombreUsuario {
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 5vh auto;
+    }
+#email {
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 5vh auto;
+}
+#date {
+    padding: 3vw 14vh;
+    text-align: center;
+    border: none;
+    margin: 5vh auto;
+}
+#domicilio {
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 5vh auto;
+}
+h3 {
+    font-weight: bold;
+}
+.perfil {
+    margin: 8vh auto;
+    text-align: left;
+}
+.interes {
+    margin: 8vh auto;
+    text-align: left;
+}
+.fotoUsuario {
+    text-align: left;
+    margin: 8vh auto;
+}
+#password {
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 4vh 6vw;
+}
+#confirmarContraseña{
+    padding: 3vw 10vh;
+    text-align: center;
+    border: none;
+    margin: 4vh 6vw;
+}
+.borrar {
+    background-color: #FFFFFF;
+    padding: 10px 111px;
+    text-align: center;
+    border: none;
+    margin: 4vh 7vw;
+}

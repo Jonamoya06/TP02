@@ -1,3 +1,51 @@
 header {
-    background-color: #EAC926;;
+    background-color: #EAC926;
+    
+    img {
+        margin: auto 4vw;
+        margin-top: 4vh;
+    }
+    * {
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-style: normal;
+        color: black;
+    }
+
+    div div form {
+        margin: auto 4vw;
+        margin-top: 4vh;
+    }
+
+    div p {
+        margin: auto 9vw;
+        margin-top: 4vh;
+    }
+    
+    ul {
+        list-style: none;
+        padding: 0;  
+        margin-top: 4vh;
+        a {
+            text-decoration: none;
+        }     
+    }
+    div {
+        
+
+    }
 }
+.botom {
+    padding: 3vh 0;
+}
+.burger-menu{
+    i{
+        color: #ebebeb;
+    }
+    padding: 10px ;
+    margin: 0 44vw;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #1259c9
+}
+

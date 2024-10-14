@@ -63,7 +63,7 @@ article {
     font-size: 16px;
 }
 
-@media (max-width: 767px){
+@media (max-width: 767px) {
     .articulos {
         box-shadow: none;
         }

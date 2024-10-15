@@ -5,6 +5,7 @@ header {
         padding: 3vh 0;
     }
 
+
     .burger-menu {
         & i {
             color: #ebebeb
@@ -16,14 +17,33 @@ header {
         background-color: #1259c3;
     }
 }
+.logo-barra {
+    & form {
+        margin-right: -10px;
+        display: flex;
+    }
+    & form button {
+        padding: 11px;
+        border: none;
+        background-color: white;
+    }
+    display: flex;
+    align-items: center;
+}
+
 header img {
-    width: 45vw;
     margin-left: 2vw;
+    width: 90%
+}
+#buscar {
+    margin-right: -10px;
+    border: none;
+    padding: 11px;
+    width: 50%;
 }
 header div form {
-    & input {
-        width: 41vw;} 
-    margin: 2vh 3vw;
+    
+    margin: 5vh
 }
 header div p {
     margin: auto 9vw;
@@ -39,29 +59,100 @@ header ul {
     }
 }
 @media (max-width: 767px){
+    .enunciado-header-tablet {
+        display: none;
+    }
     .navegacion {
         display: none;
     }
 }
 @media (min-width: 768px) and (max-width:1023px){
-    .enunciado-header {
-        text-align: center;
+    #buscar {
+        margin-right: -5px;
+        border: none;
+        padding: 5px;
+        width: 32vw;
+    }
+    .logo-barra form button {
+        padding: 5px;
+    }
+    .enunciado-header-mobile {
+        display: none;
+    }
+    .enunciado-header-tablet {
+        
+        margin: 5vh 8px auto 3vw;
+        font-size: 14px;
     }
     .burger-menu{
         display: none;
     }
     .navegacion {
-        margin-left: 25px;
+        & a {
+            margin-left: 33px;
+            font-size: 12px;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-productos {
+        padding: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .nav-usuarios {
+        padding: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
 }
 @media (min-width: 1023px){
+    #buscar {
+        margin-right: -5px;
+        border: none;
+        padding: 5px;
+        width: 32vw;
+    }
+    .logo-barra form button {
+        padding: 5px;
+    }
+    .enunciado-header-mobile {
+        display: none;
+    }
+    .enunciado-header-tablet {
+        
+        margin: 5vh 8px auto 3vw;
+        font-size: 14px;
+    }
     .burger-menu{
       display: none;
     }
-    .enunciado-header {
-        text-align: center;
-    }
     .navegacion {
-        margin-left: 25px;
+        & a {
+            margin-left: 33px;
+            font-size: 12px;
+        }
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav-productos {
+        padding: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+    .nav-usuarios {
+        padding: 0;
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
   }

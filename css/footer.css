@@ -1,5 +1,6 @@
 
 footer {
+    background-color: white;
     text-align: center;
     
 }
@@ -10,4 +11,5 @@ footer .fa-solid {
     color: #1259c3;
     font-size: 2em;
 }
+
 

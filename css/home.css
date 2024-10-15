@@ -25,6 +25,9 @@ article {
         left:  60px;
         top: 192vw;
     }
+    .fa-truck:hover {
+        transform: rotate(270deg);
+    }
     .precio{
         font-size: 18px;
         width: 30%;
@@ -83,17 +86,33 @@ article {
     .articulos {
         box-shadow: none;
         }
+    .articulos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
     .descripcion {
-        display: none;
+            color: white;
+            display: block;
+            }
+    .descripcion:hover {
+            color: #000;
+            display: block;
         }
     
 }
 @media (min-width: 768px) and (max-width:1023px) {
+    .descripcion {
+        color: white;
+        display: block;
+        }
+    .descripcion:hover {
+        color: #000;
+        display: block;
+    }
     .titular {
         display: none;
     }
     .titular-tablet {
-        font-size: 24px;
+        font-size: 20px;
         margin-left: 5vw;
         color: #666;
     }
@@ -116,11 +135,24 @@ article {
     .articulos {
         flex-wrap: wrap;
     } 
-    
+    .articulos {
+        box-shadow: none;
+        }
+    .articulos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
     
 }
 
 @media (min-width: 1024px) {
+    .descripcion {
+        color: white;
+        display: block;
+        }
+    .descripcion:hover {
+        color: #000;
+        display: block;
+    }
 
     .titular-tablet {
         display: none;
@@ -146,5 +178,11 @@ article {
     
     .articulos {
         flex-direction: row;
+    }
+    .articulos {
+        box-shadow: none;
+        }
+    .articulos:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     }

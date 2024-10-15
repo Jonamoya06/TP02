@@ -1,8 +1,8 @@
 
 footer {
+    
     background-color: white;
     text-align: center;
-    
 }
 footer section {
     text-align: center;
@@ -11,5 +11,34 @@ footer .fa-solid {
     color: #1259c3;
     font-size: 2em;
 }
+footer .fa-solid:hover {
+    color: #39b54a;
+}
+footer div {
+    margin-top: 30px;
+}
 
 
+@media (min-width: 1023px) {
+    footer div {
+        display: flex;
+    }
+    footer .fa-solid{
+        font-size: 23px;
+    }
+    footer h3 {
+        font-size: 14px;
+    }
+    footer div p {
+        font-size: 13px;
+    }
+    footer p {
+        font-size: 12px;
+        display: flex;
+    }
+    .enunciado-footer {
+        margin-left: 30px;
+    }
+    
+
+}

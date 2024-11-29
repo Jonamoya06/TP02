@@ -1,0 +1,23 @@
+main form div {
+    text-align: center;
+}
+#nombreUsuario {
+    padding: 3vh 7vw;
+    text-align: center;
+    border: none;
+    margin: 6vh auto;
+}
+#password {
+    padding: 3vh 7vw;
+    text-align: center;
+    border: none;
+    margin: 6vh auto;
+}
+.enviar{
+    padding: 2vh 35vw;
+    text-align: center;
+    border: none;
+    margin: 4vh auto;
+    background-color:#1259c9; 
+    color: #ebebeb;
+}
